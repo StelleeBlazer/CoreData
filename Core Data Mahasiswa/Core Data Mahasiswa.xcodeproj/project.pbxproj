@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F64BDFCA26A278B8001DD749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64BDFC926A278B8001DD749 /* AppDelegate.swift */; };
+		F64BDFCC26A278B8001DD749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64BDFCB26A278B8001DD749 /* SceneDelegate.swift */; };
+		F64BDFCE26A278B8001DD749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64BDFCD26A278B8001DD749 /* ViewController.swift */; };
+		F64BDFD126A278B8001DD749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64BDFCF26A278B8001DD749 /* Main.storyboard */; };
+		F64BDFD426A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F64BDFD226A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodeld */; };
+		F64BDFD626A278BA001DD749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64BDFD526A278BA001DD749 /* Assets.xcassets */; };
+		F64BDFD926A278BA001DD749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64BDFD726A278BA001DD749 /* LaunchScreen.storyboard */; };
+		F64BDFE126A2B488001DD749 /* MahasiswaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64BDFE026A2B488001DD749 /* MahasiswaTableViewController.swift */; };
+		F64BDFE326A2B4A6001DD749 /* MahasiswaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64BDFE226A2B4A6001DD749 /* MahasiswaTableViewCell.swift */; };
+		F64BDFE526A3D6DD001DD749 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64BDFE426A3D6DD001DD749 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F64BDFC626A278B8001DD749 /* Core Data Mahasiswa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data Mahasiswa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64BDFC926A278B8001DD749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F64BDFCB26A278B8001DD749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F64BDFCD26A278B8001DD749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F64BDFD026A278B8001DD749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F64BDFD326A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_Mahasiswa.xcdatamodel; sourceTree = "<group>"; };
+		F64BDFD526A278BA001DD749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F64BDFD826A278BA001DD749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F64BDFDA26A278BA001DD749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64BDFE026A2B488001DD749 /* MahasiswaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahasiswaTableViewController.swift; sourceTree = "<group>"; };
+		F64BDFE226A2B4A6001DD749 /* MahasiswaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahasiswaTableViewCell.swift; sourceTree = "<group>"; };
+		F64BDFE426A3D6DD001DD749 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64BDFC326A278B8001DD749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F64BDFBD26A278B8001DD749 = {
+			isa = PBXGroup;
+			children = (
+				F64BDFC826A278B8001DD749 /* Core Data Mahasiswa */,
+				F64BDFC726A278B8001DD749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F64BDFC726A278B8001DD749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64BDFC626A278B8001DD749 /* Core Data Mahasiswa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64BDFC826A278B8001DD749 /* Core Data Mahasiswa */ = {
+			isa = PBXGroup;
+			children = (
+				F64BDFC926A278B8001DD749 /* AppDelegate.swift */,
+				F64BDFCB26A278B8001DD749 /* SceneDelegate.swift */,
+				F64BDFCD26A278B8001DD749 /* ViewController.swift */,
+				F64BDFCF26A278B8001DD749 /* Main.storyboard */,
+				F64BDFD526A278BA001DD749 /* Assets.xcassets */,
+				F64BDFD726A278BA001DD749 /* LaunchScreen.storyboard */,
+				F64BDFDA26A278BA001DD749 /* Info.plist */,
+				F64BDFD226A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodeld */,
+				F64BDFE026A2B488001DD749 /* MahasiswaTableViewController.swift */,
+				F64BDFE226A2B4A6001DD749 /* MahasiswaTableViewCell.swift */,
+				F64BDFE426A3D6DD001DD749 /* DetailViewController.swift */,
+			);
+			path = "Core Data Mahasiswa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64BDFC526A278B8001DD749 /* Core Data Mahasiswa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64BDFDD26A278BA001DD749 /* Build configuration list for PBXNativeTarget "Core Data Mahasiswa" */;
+			buildPhases = (
+				F64BDFC226A278B8001DD749 /* Sources */,
+				F64BDFC326A278B8001DD749 /* Frameworks */,
+				F64BDFC426A278B8001DD749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Data Mahasiswa";
+			productName = "Core Data Mahasiswa";
+			productReference = F64BDFC626A278B8001DD749 /* Core Data Mahasiswa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F64BDFBE26A278B8001DD749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F64BDFC526A278B8001DD749 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F64BDFC126A278B8001DD749 /* Build configuration list for PBXProject "Core Data Mahasiswa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F64BDFBD26A278B8001DD749;
+			productRefGroup = F64BDFC726A278B8001DD749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64BDFC526A278B8001DD749 /* Core Data Mahasiswa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64BDFC426A278B8001DD749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64BDFD926A278BA001DD749 /* LaunchScreen.storyboard in Resources */,
+				F64BDFD626A278BA001DD749 /* Assets.xcassets in Resources */,
+				F64BDFD126A278B8001DD749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64BDFC226A278B8001DD749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64BDFCE26A278B8001DD749 /* ViewController.swift in Sources */,
+				F64BDFE126A2B488001DD749 /* MahasiswaTableViewController.swift in Sources */,
+				F64BDFCA26A278B8001DD749 /* AppDelegate.swift in Sources */,
+				F64BDFD426A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodeld in Sources */,
+				F64BDFE326A2B4A6001DD749 /* MahasiswaTableViewCell.swift in Sources */,
+				F64BDFCC26A278B8001DD749 /* SceneDelegate.swift in Sources */,
+				F64BDFE526A3D6DD001DD749 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F64BDFCF26A278B8001DD749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64BDFD026A278B8001DD749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F64BDFD726A278BA001DD749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64BDFD826A278BA001DD749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F64BDFDB26A278BA001DD749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F64BDFDC26A278BA001DD749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F64BDFDE26A278BA001DD749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BC673A73;
+				INFOPLIST_FILE = "Core Data Mahasiswa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nanda.Core-Data-Mahasiswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F64BDFDF26A278BA001DD749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BC673A73;
+				INFOPLIST_FILE = "Core Data Mahasiswa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nanda.Core-Data-Mahasiswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64BDFC126A278B8001DD749 /* Build configuration list for PBXProject "Core Data Mahasiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64BDFDB26A278BA001DD749 /* Debug */,
+				F64BDFDC26A278BA001DD749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64BDFDD26A278BA001DD749 /* Build configuration list for PBXNativeTarget "Core Data Mahasiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64BDFDE26A278BA001DD749 /* Debug */,
+				F64BDFDF26A278BA001DD749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F64BDFD226A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F64BDFD326A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodel */,
+			);
+			currentVersion = F64BDFD326A278B8001DD749 /* Core_Data_Mahasiswa.xcdatamodel */;
+			path = Core_Data_Mahasiswa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F64BDFBE26A278B8001DD749 /* Project object */;
+}
